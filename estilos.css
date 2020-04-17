@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: #196EC3;
+    transition: all 1.5s ease 0s;
+}
+
+.contenedor:hover{
+    background: -webkit-linear-gradient(top, #fff,#196EC3);
+}
+
+a{
+    text-decoration: none;
+}
+.texto{
+    /* display: none; */
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    opacity: 0;
+    padding-top: 270px; 
+    transition: all 1s ease 0s;
+   
+}
+
+.texto:hover{
+    opacity: 1;
+}
+
+
+
+
+
